@@ -199,3 +199,120 @@ section {
     color: #fde68a;
     text-shadow: 0 0 8px #facc15;
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* SOCIAL ICONS */
+    .nav-socials {
+        margin-top: 5px;
+    }
+
+    /* SECTIONS */
+    section {
+        padding: 30px 20px;
+    }
+
+    /* SKILLS GRID */
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* CARDS */
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* NAV TOP */
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HAMBURGER */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* DEFAULT MENU */
+#nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background: rgba(0,0,0,0.9);
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    #nav-menu.active {
+        display: flex;
+    }
+
+    #nav-menu li {
+        padding: 10px 0;
+    }
+}
