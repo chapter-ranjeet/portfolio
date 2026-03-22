@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+header {
+    padding: 20px 50px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero img {
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #3b82f6;
+}
+
+.hero span {
+    color: #3b82f6;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn, .btn-outline {
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn {
+    background: #3b82f6;
+    color: white;
+}
+
+.btn-outline {
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+}
+
+.socials a {
+    margin-right: 15px;
+    color: #94a3b8;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.grid div {
+    padding: 15px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(59,130,246,0.2);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #020617;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-box {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    background: rgba(59,130,246,0.2);
+    transform: translateY(-5px);
+}
+
+.skill-box h3 {
+    margin-bottom: 10px;
+    color: #3b82f6;
+}
+
+.skill-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-box li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Logo + Icons */
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section h2 {
+    margin-right: 15px;
+}
+
+/* Social Icons */
+.nav-socials a {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Hover Effects (Premium Look) */
+.nav-socials a:hover {
+    transform: scale(1.2);
+}
+
+.nav-socials a:nth-child(1):hover {
+    color: #0077b5; /* LinkedIn */
+}
+
+.nav-socials a:nth-child(2):hover {
+    color: #e1306c; /* Instagram */
+}
+
+.nav-socials a:nth-child(3):hover {
+    color: #1877f2; /* Facebook */
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+    background: transparent;
+}
+
+#certifications a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+#certifications a:hover {
+    color: #fde68a;
+    text-shadow: 0 0 8px #facc15;
+}
