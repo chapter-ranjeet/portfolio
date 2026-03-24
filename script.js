@@ -17,5 +17,14 @@ const toggle = document.getElementById("menu-toggle");
 const menu = document.getElementById("nav-menu");
 
 toggle.addEventListener("click", () => {
+    toggle.classList.toggle("active");
     menu.classList.toggle("active");
+});
+
+/* Auto close menu when clicking link */
+document.querySelectorAll("#nav-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        toggle.classList.remove("active");
+        menu.classList.remove("active");
+    });
 });
