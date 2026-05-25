@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranjeet Yadav | Data Scientist</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <!-- ADD THIS IN <head> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body class="page-loading">
 
     <header>
         <nav>
@@ -43,6 +42,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -51,92 +51,127 @@
 
     <!-- HERO -->
     <section class="hero">
-        <div>
+        <div class="hero-copy">
+            <p class="hero-badge">Portfolio · Data Science · Full-Stack</p>
             <h1>Hi, I'm <span>Ranjeet Yadav</span></h1>
-            <h3>Data Science Student 🚀</h3>
+            <h3>Future Data Scientist 🚀</h3>
             <p>I build intelligent systems, analyze data & create modern web apps.</p>
 
             <div class="buttons">
                 <a href="#contact" class="btn">Hire Me</a>
                 <a href="Ranjeet_Resume.pdf" class="btn-outline" download>Download Resume</a>
             </div>
-            <div>
-
-            </div>
-
         </div>
 
-        <img src="profile.jpg" alt="profile">
+        <div class="hero-visual">
+            <img src="profile.jpg" alt="profile">
+        </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about">
         <h2>About Me</h2>
-        <p>
-            I am a passionate Data Science student at Quantum University with strong knowledge in Python,
-            Machine Learning, and Data Analysis. I enjoy solving real-world problems using data-driven approaches.
-        </p>
+        <p class="section-lead">A quick snapshot of what I do, what I value, and where I’m headed.</p>
+
+        <div class="about-card">
+            <div class="about-intro">
+                <p class="project-kicker">Who I am</p>
+                <h3>Data Science student building useful, modern digital products</h3>
+                <p class="about-copy">
+                    I’m a passionate Data Science student at Quantum University with a strong focus on Python,
+                    machine learning, and data analysis. I enjoy turning ideas into practical solutions that are
+                    clear, useful, and easy to use.
+                </p>
+            </div>
+
+            <div class="about-highlights">
+                <div class="about-item">
+                    <span>Focus</span>
+                    <p>Data science, ML, and full-stack web projects.</p>
+                </div>
+                <div class="about-item">
+                    <span>Style</span>
+                    <p>Clean UI, strong structure, and real-world problem solving.</p>
+                </div>
+                <div class="about-item">
+                    <span>Goal</span>
+                    <p>Build products that combine data, design, and impact.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- EDUCATION -->
     <section id="education">
         <h2>Education</h2>
 
-        <div class="card">
-            <h3>Bachelor of Technology in Computer Science and Engineering (Honors) Data Science</h3>
-            <p>Quantum University (2024 – 2028)</p>
-        </div>
+        <div class="education-grid">
+            <article class="education-card">
+                <p class="project-kicker">Current program</p>
+                <h3>Bachelor of Technology in Computer Science and Engineering (Honors) Data Science</h3>
+                <p class="education-meta"><strong>Quantum University</strong> · 2024 – 2028</p>
+                <ul>
+                    <li>Focused on data analysis, machine learning, and software fundamentals</li>
+                    <li>Building practical skills through coursework and project work</li>
+                </ul>
+            </article>
 
-        <div class="card">
-            <h3>Diploma in Computer Science and Engineering</h3>
-            <p>Quantum University (2021 – 2024)</p>
-            <p>Score: 80.7%</p>
+            <article class="education-card">
+                <p class="project-kicker">Previous program</p>
+                <h3>Diploma in Computer Science and Engineering</h3>
+                <p class="education-meta"><strong>Quantum University</strong> · 2021 – 2024</p>
+                <ul>
+                    <li>Studied core programming, databases, and web development concepts</li>
+                    <li>Score: 80.7%</li>
+                </ul>
+            </article>
         </div>
     </section>
 
     
-   <section id="experience">
-    <h2>Experience</h2>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p class="section-lead">Practical work across data science, security, and frontend development.</p>
 
-    <!-- Internship -->
-    <div class="card">
-        <h3>Data Science Intern (Python)</h3>
-        <p><strong>SmartED Innovations</strong> | Feb 2026 – Present | Remote</p>
+        <div class="experience-grid">
+            <article class="experience-card">
+                <p class="project-kicker">Current role</p>
+                <h3>Data Science Intern (Python)</h3>
+                <p class="experience-meta"><strong>SmartED Innovations</strong> · Feb 2026 – Present · Remote</p>
 
-        <ul>
-            <li>Completed training and internship in Data Science using Python</li>
-            <li>Worked with tools like Anaconda, NumPy, Pandas, and data analysis libraries</li>
-            <li>Gained hands-on experience in data preprocessing and visualization</li>
-            <li>Built foundational knowledge in Machine Learning concepts</li>
-        </ul>
+                <ul>
+                    <li>Completed training and internship in Data Science using Python</li>
+                    <li>Worked with tools like Anaconda, NumPy, Pandas, and data analysis libraries</li>
+                    <li>Gained hands-on experience in data preprocessing and visualization</li>
+                    <li>Built foundational knowledge in Machine Learning concepts</li>
+                </ul>
+            </article>
 
-    </div>
+            <article class="experience-card">
+                <p class="project-kicker">Apprenticeship</p>
+                <h3>Information Security Risk Management</h3>
+                <p class="experience-meta"><strong>eLearning College</strong> · Feb 2026 – Present · Remote</p>
 
-    <!-- Apprenticeship -->
-    <div class="card">
-        <h3>Information Security Risk Management (Apprenticeship)</h3>
-        <p><strong>eLearning College</strong> | Feb 2026 – Present | Remote</p>
+                <ul>
+                    <li>Completed diploma-level apprenticeship in Information Security</li>
+                    <li>Learned risk assessment and security management concepts</li>
+                    <li>Understood cybersecurity fundamentals and data protection strategies</li>
+                </ul>
+            </article>
 
-        <ul>
-            <li>Completed diploma-level apprenticeship in Information Security</li>
-            <li>Learned risk assessment and security management concepts</li>
-            <li>Understood cybersecurity fundamentals and data protection strategies</li>
-        </ul>
-    </div>
+            <article class="experience-card">
+                <p class="project-kicker">Previous experience</p>
+                <h3>Frontend Developer Intern</h3>
+                <p class="experience-meta"><strong>Freelancer Unit Pvt. Ltd, Nepal</strong> · June 2023 – Aug 2023</p>
 
-    <!-- Previous Experience -->
-    <div class="card">
-        <h3>Frontend Developer Intern</h3>
-        <p><strong>Freelancer Unit Pvt. Ltd, Nepal</strong> | June 2023 – Aug 2023</p>
-
-        <ul>
-            <li>Designed responsive websites for multiple devices</li>
-            <li>Built UI using HTML5 & CSS3</li>
-            <li>Collaborated with teams to develop landing pages</li>
-        </ul>
-    </div>
-
-</section>
+                <ul>
+                    <li>Designed responsive websites for multiple devices</li>
+                    <li>Built UI using HTML5 & CSS3</li>
+                    <li>Collaborated with teams to develop landing pages</li>
+                </ul>
+            </article>
+        </div>
+    </section>
 
     <!-- SKILLS -->
     <section id="skills">
@@ -194,17 +229,72 @@
 
     <section id="projects">
         <h2>Projects</h2>
+        <p class="section-lead">Selected projects that show my work in news platforms and AI-powered tools.</p>
 
-        <div class="card">
-            <h3>🌱 Intelligent Plant Watering System</h3>
-            <p><strong>Technologies:</strong> Arduino, NodeMCU (ESP8266), Soil Sensor, Blynk Cloud</p>
-            <ul>
-                <li>Developed an automated irrigation system using IoT</li>
-                <li>Implemented real-time soil moisture monitoring</li>
-                <li>Automated water pump activation based on moisture levels</li>
-                <li>Achieved efficient water conservation</li>
-                <li>Integrated hardware with cloud dashboard</li>
-            </ul>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-header">
+                    <div>
+                        <p class="project-kicker">Full-stack news platform</p>
+                        <h3>HamroBichar</h3>
+                    </div>
+                </div>
+
+                <p class="project-summary">
+                    A Nepal-focused digital news website built with a Next.js frontend and MongoDB backend.
+                    It supports latest news, categories, article pages, multilingual content, and an admin newsroom flow.
+                </p>
+
+                <div class="project-tags">
+                    <span>Next.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>Tailwind CSS</span>
+                    <span>JWT Auth</span>
+                </div>
+
+                <div class="project-actions">
+                    <a href="https://hamrobichar.com/" target="_blank" rel="noreferrer" class="project-link">View Live</a>
+                </div>
+
+                <ul>
+                    <li>Built a news publishing flow with article CRUD, categories, and dynamic article routes</li>
+                    <li>Added admin and subadmin login pages for newsroom management</li>
+                    <li>Included SEO metadata, sitemap support, and structured data for search visibility</li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <div>
+                        <p class="project-kicker">AI productivity app</p>
+                        <h3>AI Study Assistant</h3>
+                    </div>
+                </div>
+
+                <p class="project-summary">
+                    An AI study assistant with a FastAPI backend and React/Vite frontend that generates notes from a topic,
+                    stores them in history, and protects access with JWT authentication.
+                </p>
+
+                <div class="project-tags">
+                    <span>FastAPI</span>
+                    <span>React</span>
+                    <span>Vite</span>
+                    <span>SQLAlchemy</span>
+                    <span>OpenRouter AI</span>
+                </div>
+
+                <div class="project-actions">
+                    <a href="https://github.com/chapter-ranjeet/ai_study_assistant" target="_blank" rel="noreferrer" class="project-link">Source Code</a>
+                </div>
+
+                <ul>
+                    <li>Implemented signup, login, token-based route protection, and note history storage</li>
+                    <li>Connected the app to an AI generation endpoint for topic-based study notes</li>
+                    <li>Designed a dashboard workflow for generating, reviewing, and reusing notes quickly</li>
+                </ul>
+            </article>
         </div>
 
     </section>
@@ -240,12 +330,13 @@
         <h2>Contact</h2>
         <p>Email: chapter.ranjeet@gmail.com</p>
         <p>Phone: +91 9259622278</p>
+        <p>Phone: +977 9826810903</p>
 
         <a href="mailto:chapter.ranjeet@gmail.com" class="btn">Send Email</a>
     </section>
 
     <footer>
-        <p>© 2026 Ranjeet Yadav | Personal Portfolio</p>
+        <p>© 2026 Ranjeet Yadav | Premium Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
